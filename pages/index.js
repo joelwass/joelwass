@@ -23,7 +23,6 @@ const Home = () => (
         margin: 0;
         width: 100%;
         padding-top: 80px;
-        line-height: 1.15;
       }
       .title,
       .description {

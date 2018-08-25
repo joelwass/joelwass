@@ -16,6 +16,8 @@ const Movies = () => (
         <li>Step Brothers</li>
         <li>Talladega Nights: The Ballad of Ricky Bobby</li>
         <li>Zoolander</li>
+        <li>Saving Private Ryan</li>
+        <li>La La Land</li>
         <li>The Hangover (all)</li>
         <li>The Incredibles (I and II)</li>
         <li>Elf</li>
@@ -49,7 +51,6 @@ const Movies = () => (
         margin: 0;
         width: 100%;
         padding-top: 80px;
-        line-height: 1.15;
         font-size: 48px;
       }
       .title,
