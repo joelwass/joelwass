@@ -12,7 +12,7 @@ const Follow = () => (
       <div className="description">
         <ul>
           <li>Elon Musk</li>
-          <li>Peter Squicciarini - <a href="https://github.com/stripedpajamas">github</a></li>
+          <li>Peter Squicciarini - <a href="https://github.com/stripedpajamas"><code>github</code></a></li>
           <li>Andrew Wasserman</li>
           <li></li>
         </ul>

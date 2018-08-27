@@ -11,8 +11,7 @@ const links = [
   { href: '/tvshows', label: 'Tv Shows' },
   { href: '/places', label: 'Places' },
   { href: '/follow', label: 'I Follow' },
-  { href: '/contact', label: 'Contact' },
-  { href: '/test', label: 'Test' }
+  { href: '/contact', label: 'Contact' }
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
@@ -57,35 +56,37 @@ class Nav extends React.Component {
         </div>
 
         <Drawer anchor="right" open={this.state.open} onClose={this.toggleDrawer()}>
-          <div
-            tabIndex={0}
-            role="button"
-            onClick={this.toggleDrawer()}
-            onKeyDown={this.toggleDrawer()}
-          >
+          <div>
             <div className="xIcon" onClick={this.toggleDrawer()}>
               <XIcon />
             </div>
-            <ul>
-              <li>
-                <Link prefetch href="/">
-                  <a>Home</a>
-                </Link>
-              </li>
-              <ul>
-                {links.map(({ key, href, label }) => (
-                  <li key={key}>
-                    <Link href={href}>
-                      <a>{label}</a>
-                    </Link>
-                  </li>
-                ))}
-              </ul>
-            </ul>
+            <div className="mobileViewLinks">
+              <Link prefetch href="/">
+                <a><code>Home</code></a>
+              </Link>
+              {links.map(({ key, href, label }) => (
+                <div key={key}>
+                  <Link href={href}>
+                    <a><code>{label}</code></a>
+                  </Link>
+                </div>
+              ))}
+            </div>
           </div>
         </Drawer>
     
         <style jsx>{`
+          .burger,
+          .xIcon {
+            padding-top: 5px;
+            padding-right: 5px;
+            padding-left: 5px;
+          }
+          .mobileViewLinks {
+            margin-top: 20px;
+            margin-left: 20px;
+            margin-right: 20px;
+          }
           .desktopNav {
             display: none;
           }
