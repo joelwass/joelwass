@@ -2,8 +2,7 @@ import React from 'react'
 import Link from 'next/link'
 import XIcon from './icons/x'
 import HamburgerIcon from './icons/hamburger'
-import Drawer from '@material-ui/core/Drawer';
-import Button from '@material-ui/core/Button';
+import Drawer from '@material-ui/core/Drawer'
 
 const links = [
   { href: '/books', label: 'Books' },
