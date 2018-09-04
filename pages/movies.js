@@ -28,11 +28,13 @@ const Movies = () => (
         <li>The Avengers (all)</li>
         <li>Ironman</li>
         <li>Black Panther</li>
-        <li>Inside Out</li>
+        <li>The Blindside</li>
         <li>Another Earth</li>
         <li>About Time</li>
+        <li>The 13th (Netflix)</li>
         <li>The Age of Adeline</li>
         <li>BladeRunner 2049</li>
+        <li>The Green Mile</li>
         <li>James Bond (Daniel Craig)</li>
         <li>Batman (all Christopher Nolan directed)</li>
         <li>Inception</li>
