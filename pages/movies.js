@@ -11,6 +11,7 @@ const Movies = () => (
       <h1 className="title">Movies</h1>
       <ul className="description">
         <li>Goodwill Hunting</li>
+        <li>The Intouchables</li>
         <li>Midnight in Paris</li>
         <li>Blades of Glory</li>
         <li>Step Brothers</li>
@@ -37,6 +38,7 @@ const Movies = () => (
         <li>The Green Mile</li>
         <li>James Bond (Daniel Craig)</li>
         <li>Batman (all Christopher Nolan directed)</li>
+        <li>Mrs. Doubtfire</li>
         <li>Inception</li>
         <li>Interstellar</li>
         <li>Hitchhikers Guide to the Galaxy</li>

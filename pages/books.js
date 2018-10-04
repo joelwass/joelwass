@@ -23,6 +23,7 @@ const Books = () => (
           <li>The Right Stuff - Tom Wolfe</li>
           <li>The Boys in The Boat - Daniel James Brown</li>
           <li>Diary of an Oxygen Thief</li>
+          <li>The Glass Castle - Jeannette Walls</li>
           <li>Living With a Seal - Jesse Itzler</li>
           <li>Moonwalking With Einstein - Joshua Foer</li>
           <li></li>
