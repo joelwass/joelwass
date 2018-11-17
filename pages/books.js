@@ -29,6 +29,8 @@ const Books = () => (
           <li>Unbroken - Laura Hillenbrand</li>
           <li>The Glass Castle - Jeannette Walls</li>
           <li>Calypso - David Sedaris</li>
+          <li>Homo Deus - Yuval Noah Harari</li>
+          <li>Option B - Sheryl Sandberg</li>
           <li>Living With a Seal - Jesse Itzler</li>
           <li>Moonwalking With Einstein - Joshua Foer</li>
           <li></li>
@@ -40,6 +42,8 @@ const Books = () => (
           <li>Deaths End - Cixin Liu</li>
           <li>The Giver - Lois Lowry</li>
           <li>The Nix - Nathan Hill</li>
+          <li>The Power of One - Bryce Courtenay</li>
+          <li>The Giver - Lois Lowry</li>
           <li>The Book Thief - Markus Zusak</li>
           <li>All the Light We Cannot See - Anthony Doerr</li>
           <li>Brave New World - Aldous Huxley</li>
