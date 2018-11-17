@@ -23,7 +23,12 @@ const Books = () => (
           <li>The Right Stuff - Tom Wolfe</li>
           <li>The Boys in The Boat - Daniel James Brown</li>
           <li>Diary of an Oxygen Thief</li>
+          <li>Zero to One - Peter Thiel</li>
+          <li>The Hard Thing About Hard Things - Ben Horowitz</li>
+          <li>Creative Confidence - David M. Kelley</li>
+          <li>Unbroken - Laura Hillenbrand</li>
           <li>The Glass Castle - Jeannette Walls</li>
+          <li>Calypso - David Sedaris</li>
           <li>Living With a Seal - Jesse Itzler</li>
           <li>Moonwalking With Einstein - Joshua Foer</li>
           <li></li>
@@ -33,6 +38,7 @@ const Books = () => (
           <li>Three Body Problem - Cixin Liu</li>
           <li>The Dark Forest - Cixin Liu</li>
           <li>Deaths End - Cixin Liu</li>
+          <li>The Giver - Lois Lowry</li>
           <li>The Nix - Nathan Hill</li>
           <li>The Book Thief - Markus Zusak</li>
           <li>All the Light We Cannot See - Anthony Doerr</li>
