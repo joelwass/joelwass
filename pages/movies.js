@@ -18,10 +18,14 @@ const Movies = () => (
         <li>Talladega Nights: The Ballad of Ricky Bobby</li>
         <li>Zoolander</li>
         <li>Saving Private Ryan</li>
+        <li>Lord of the Rings</li>
         <li>La La Land</li>
         <li>The Hangover (all)</li>
         <li>The Incredibles (I and II)</li>
         <li>Elf</li>
+        <li>Arrival</li>
+        <li>The Big Fish</li>
+        <li>Jumanji</li>
         <li>Where the Wild Things Are</li>
         <li>The Polar Express</li>
         <li>Moana</li>
