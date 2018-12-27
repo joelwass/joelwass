@@ -12,11 +12,11 @@ const TvShows = () => (
       <ul className="description">
         <li>New Girl</li>
         <li>Love Sick</li>
+        <li>Luther</li>
         <li>Modern Family</li>
         <li>Seinfeld</li>
         <li>Black Mirror</li>
         <li>Game of Thrones</li>
-        <li>American Vandal</li>
         <li>Criminal Minds</li>
         <li>Jeopardy</li>
         <li>Stranger Things</li>
