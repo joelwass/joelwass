@@ -8,9 +8,11 @@ const Home = () => (
     <Nav />
 
     <div className="hero">
-      <h1 className="title">Follow the breadcrumbs of joelwass, and you will think like joelwass</h1>
+      <h1 className="title">The breadcrumbs of joelwass</h1>
       <p className="description">
-        To get started, buy some <a href="/books"><code>Books</code></a> and visit some <a href="/places"><code>Places</code></a>.
+        Buy some <a href="/books"><code>Books</code></a>
+        , visit some <a href="/places"><code>Places</code></a>
+        , and watch some <a href="/movies"><code>Movies</code></a>.
       </p>
     </div>
 

@@ -16,7 +16,6 @@ const Movies = () => (
         <li>Midnight in Paris</li>
         <li>Blades of Glory</li>
         <li>Step Brothers</li>
-        <li>Talladega Nights: The Ballad of Ricky Bobby</li>
         <li>Zoolander</li>
         <li>Saving Private Ryan</li>
         <li>Lord of the Rings</li>
@@ -24,13 +23,10 @@ const Movies = () => (
         <li>The Incredibles</li>
         <li>Elf</li>
         <li>Arrival</li>
-        <li>The Big Fish</li>
         <li>Jumanji</li>
-        <li>Where the Wild Things Are</li>
         <li>The Polar Express</li>
         <li>Moana</li>
         <li>500 Days of Summer</li>
-        <li>Alladin</li>
         <li>Ironman</li>
         <li>Black Panther</li>
         <li>The Blindside</li>
@@ -38,7 +34,6 @@ const Movies = () => (
         <li>About Time</li>
         <li>The 13th (Netflix)</li>
         <li>The Age of Adeline</li>
-        <li>BladeRunner 2049</li>
         <li>The Green Mile</li>
         <li>Batman (all Christopher Nolan directed)</li>
         <li>Mrs. Doubtfire</li>

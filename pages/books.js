@@ -42,7 +42,6 @@ const Books = () => (
           <li>Three Body Problem - Cixin Liu</li>
           <li>The Dark Forest - Cixin Liu</li>
           <li>Deaths End - Cixin Liu</li>
-          <li>The Giver - Lois Lowry</li>
           <li>The Nix - Nathan Hill</li>
           <li>East of Eden - John Steinbeck</li>
           <li>The Power of One - Bryce Courtenay</li>

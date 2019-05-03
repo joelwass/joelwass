@@ -11,8 +11,9 @@ const Follow = () => (
       <h1 className="title">Who I Follow</h1>
       <div className="description">
         <ul>
+          <li>Peter Squicciarini - <a href='https://github.com/stripedpajamas'><code>github</code></a></li>
+          <li>Andre Staltz - <a href='https://github.com/staltz'><code>github</code></a></li>
           <li>Elon Musk</li>
-          <li>Peter Squicciarini - <a href="https://github.com/stripedpajamas"><code>github</code></a></li>
           <li>Andrew Wasserman</li>
           <li></li>
         </ul>
