@@ -13,6 +13,7 @@ const Books = () => (
         <h3>Non-Fiction</h3>
         <ul>
           <li>When Breath Becomes Air - Paul Kalanithi</li>
+          <li>A None's Story - Corinna Nicolaou</li>
           <li>Hillbilly Elegy - J. D. Vance</li>
           <li>Elon Musk: Tesla, SpaceX, and the Quest for a Fantastic Future - Ashlee Vance</li>
           <li>Power Makers - Maury Klein</li>
@@ -47,6 +48,7 @@ const Books = () => (
           <li>The Power of One - Bryce Courtenay</li>
           <li>The Giver - Lois Lowry</li>
           <li>The Book Thief - Markus Zusak</li>
+          <li>A Fine Balance - Rohinton Mistry</li>
           <li>All the Light We Cannot See - Anthony Doerr</li>
           <li>Brave New World - Aldous Huxley</li>
           <li>The Underground Railroad - Colson Whitehead</li>
