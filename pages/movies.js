@@ -43,27 +43,6 @@ const Movies = () => (
         <li></li>
       </ul>
     </div>
-
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      ul {
-        list-style: none;
-        padding-left: 0;
-      }
-    `}</style>
   </div>
 )
 

@@ -15,27 +15,6 @@ const Contact = () => (
         <li><a href="mailto:joel.wasserman8@gmail.com"><code>joel.wasserman8@gmail.com</code></a></li>
       </ul>
     </div>
-
-    <style jsx>{`
-      .hero {
-        width: 100%;
-        color: #333;
-      }
-      .title {
-        margin: 0;
-        width: 100%;
-        padding-top: 80px;
-        font-size: 48px;
-      }
-      .title,
-      .description {
-        text-align: center;
-      }
-      ul {
-        list-style: none;
-        padding-left: 0;
-      }
-    `}</style>
   </div>
 )
 

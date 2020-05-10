@@ -10,14 +10,13 @@ const Places = () => (
     <div className="hero">
       <h1 className="title">Places</h1>
       <div className="description">
-        <h3>Lived</h3>
+        <h3>Worked</h3>
         <ul>
-          <li>Coeur d'Alene ID, USA</li>
-          <li>San Sebastian, Spain</li>
-          <li>Chapel Hill NC, USA</li>
-          <li>San Francisco CA, USA</li>
-          <li>Charlotte NC, USA</li>
-          <li>Seattle WA, USA</li>
+          <li>Flossbank</li>
+          <li>Google</li>
+          <li>The Teacher Fund</li>
+          <li>Red Ventures</li>
+          <li>Versame</li>
         </ul>
       </div>
     </div>

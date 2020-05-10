@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
-import XIcon from './icons/x'
-import HamburgerIcon from './icons/hamburger'
+import ClearIcon from '@material-ui/icons/Clear';
+import MenuIcon from '@material-ui/icons/Menu';
 import Drawer from '@material-ui/core/Drawer'
 
 const links = [
@@ -10,7 +10,8 @@ const links = [
   { href: '/tvshows', label: 'Tv Shows' },
   { href: '/places', label: 'Places' },
   { href: '/follow', label: 'I Follow' },
-  { href: '/contact', label: 'Contact' }
+  { href: '/contact', label: 'Contact' },
+  { href: '/work', label: 'Work'}
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
   return link
@@ -50,14 +51,14 @@ class Nav extends React.Component {
         </div>
         <div className="mobileNav">
           <div className="burger" onClick={this.toggleDrawer()}>
-            <HamburgerIcon />
+            <MenuIcon />
           </div>
         </div>
 
         <Drawer anchor="right" open={this.state.open} onClose={this.toggleDrawer()}>
           <div>
             <div className="xIcon" onClick={this.toggleDrawer()}>
-              <XIcon />
+              <ClearIcon />
             </div>
             <div className="mobileViewLinks">
               <Link prefetch href="/">

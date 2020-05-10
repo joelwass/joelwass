@@ -7,9 +7,9 @@
   },
   "dependencies": {
     "@material-ui/core": "^1.5.1",
-    "next": "^6.1.1",
-    "node-sass": "^4.9.3",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2"
+    "@material-ui/icons": "^4.9.1",
+    "next": "^9.3.6",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
