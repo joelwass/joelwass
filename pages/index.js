@@ -10,9 +10,12 @@ const Home = () => (
     <div className="hero">
       <h1 className="title">joelwass</h1>
       <p className="description">
-        Buy some <a href="/books"><code>Books</code></a>
-        , visit some <a href="/places"><code>Places</code></a>
-        , and watch some <a href="/movies"><code>Movies</code></a>.
+        I love <a href="/work"><code>work</code></a>
+        , <a href="/books"><code>reading</code></a>
+        , and following amazing <a href="/follow"><code>people</code></a>.
+      </p>
+      <p className='description'>
+        Currently working on <a href='https://flossbank.com'><code>Flossbank</code></a> to bring equity to open source.
       </p>
     </div>
   </div>

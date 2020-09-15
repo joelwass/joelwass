@@ -7,10 +7,10 @@ import Drawer from '@material-ui/core/Drawer'
 const links = [
   { href: '/books', label: 'Books' },
   { href: '/movies', label: 'Movies' },
-  { href: '/tvshows', label: 'Tv Shows' },
   { href: '/places', label: 'Places' },
   { href: '/follow', label: 'I Follow' },
   { href: '/contact', label: 'Contact' },
+  { href: '/images/resume.pdf', label: 'Resume' },
   { href: '/work', label: 'Work'}
 ].map(link => {
   link.key = `nav-link-${link.href}-${link.label}`
