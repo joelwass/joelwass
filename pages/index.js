@@ -12,10 +12,10 @@ const Home = () => (
       <p className="description">
         I love <a href="/work"><code>work</code></a>
         , <a href="/books"><code>reading</code></a>
-        , and following amazing <a href="/follow"><code>people</code></a>.
+        , and hanging out with amazing people.
       </p>
       <p className='description'>
-        Currently working on <a href='https://flossbank.com'><code>Flossbank</code></a> to bring equity to open source.
+        Currently working at <a href='https://spacex.com'><code>SpaceX</code></a> on StarLink <a href="https://en.wikipedia.org/wiki/Phased_array">Ku Phased Arrays.</a>
       </p>
     </div>
   </div>

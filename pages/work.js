@@ -12,8 +12,9 @@ const Places = () => (
       <div className="description">
         <h3>Worked</h3>
         <ul>
-          <li><a href='https://flossbank.com'>Flossbank</a></li>
+          <li>SpaceX</li>
           <li>Google</li>
+          <li><a href='https://flossbank.com'>Flossbank</a></li>
           <li><a href='https://theteacherfund.com'>The Teacher Fund</a></li>
           <li>Red Ventures</li>
           <li>Versame</li>

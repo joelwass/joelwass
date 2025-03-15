@@ -1,14 +1,13 @@
 import React from 'react'
 import Link from 'next/link'
-import ClearIcon from '@material-ui/icons/Clear';
-import MenuIcon from '@material-ui/icons/Menu';
-import Drawer from '@material-ui/core/Drawer'
+import ClearIcon from '@mui/icons-material/Clear';
+import MenuIcon from '@mui/icons-material/Menu';
+import Drawer from '@mui/material/Drawer';
 
 const links = [
   { href: '/books', label: 'Books' },
   { href: '/movies', label: 'Movies' },
   { href: '/places', label: 'Places' },
-  { href: '/follow', label: 'I Follow' },
   { href: '/contact', label: 'Contact' },
   { href: '/images/resume.pdf', label: 'Resume' },
   { href: '/work', label: 'Work'}
@@ -35,14 +34,14 @@ class Nav extends React.Component {
           <ul>
             <li>
               <Link prefetch href="/">
-                <a>Home</a>
+                Home
               </Link>
             </li>
             <ul>
               {links.map(({ key, href, label }) => (
                 <li key={key}>
                   <Link href={href}>
-                    <a>{label}</a>
+                      {label}
                   </Link>
                 </li>
               ))}
@@ -61,13 +60,13 @@ class Nav extends React.Component {
               <ClearIcon />
             </div>
             <div className="mobileViewLinks">
-              <Link prefetch href="/">
-                <a><code>Home</code></a>
+              <Link prefetch passHref={true} href="/">
+                <code>Home</code>
               </Link>
               {links.map(({ key, href, label }) => (
                 <div key={key}>
-                  <Link href={href}>
-                    <a><code>{label}</code></a>
+                  <Link href={href} passHref={true}>
+                    <code>{label}</code>
                   </Link>
                 </div>
               ))}
